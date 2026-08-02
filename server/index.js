@@ -18,7 +18,7 @@ dns.setServers([
 
 const app = express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://intervx-wgpk.onrender.com",
     credentials:true
 }))
 
