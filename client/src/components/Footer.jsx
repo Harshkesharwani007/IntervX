@@ -24,35 +24,35 @@ function Footer() {
   };
 
   return (
-    <div className='bg-[#f3f3f3] flex justify-center px-4 pb-10 py-4 pt-10'>
-      <div className='w-full max-w-6xl flex flex-col gap-6'>
+    <div className='bg-[#f3f3f3] flex justify-center px-3 sm:px-4 pb-6 sm:pb-10 py-4 pt-6 sm:pt-10'>
+      <div className='w-full max-w-6xl flex flex-col gap-4 sm:gap-6'>
 
         {/* CONTACT */}
-        <div className='bg-white rounded-[24px] shadow-sm border border-gray-200 p-8'>
-          <div className='text-center mb-10'>
-            <h2 className='text-2xl font-semibold mb-2'>
+        <div className='bg-white rounded-2xl sm:rounded-[24px] shadow-sm border border-gray-200 p-4 sm:p-6 md:p-8'>
+          <div className='text-center mb-6 sm:mb-10'>
+            <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
               Need Help? <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500 font-extrabold'>Get in Touch</span>
             </h2>
-            <p className='text-gray-500 text-sm max-w-md mx-auto'>
+            <p className='text-gray-500 text-sm max-w-md mx-auto px-2'>
               Facing an issue or have a question? Send us a message and we'll get back to you directly on email.
             </p>
           </div>
 
-          <div className='grid md:grid-cols-5 gap-8'>
+          <div className='grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8'>
 
             {/* Contact info panel */}
-            <div className='md:col-span-2 bg-black text-white rounded-2xl p-6 flex flex-col justify-between text-left'>
+            <div className='md:col-span-2 bg-black text-white rounded-2xl p-5 sm:p-6 flex flex-col justify-between text-left'>
               <div>
-                <h3 className='text-lg font-semibold mb-5'>Contact Details</h3>
+                <h3 className='text-lg font-semibold mb-4 sm:mb-5'>Contact Details</h3>
 
-                <div className='space-y-5'>
+                <div className='space-y-4 sm:space-y-5'>
                   <div className='flex items-start gap-3'>
                     <div className='bg-white/10 w-9 h-9 rounded-lg flex items-center justify-center shrink-0'>
                       <BsEnvelope size={16} />
                     </div>
-                    <div>
+                    <div className='min-w-0'>
                       <p className='text-xs text-gray-400 mb-0.5'>Email</p>
-                      <p className='text-sm'>harshkesharwani047@gmail.com</p>
+                      <p className='text-sm break-all'>harshkesharwani047@gmail.com</p>
                     </div>
                   </div>
 
@@ -78,7 +78,7 @@ function Footer() {
                 </div>
               </div>
 
-              <p className='text-xs text-gray-400 mt-8'>
+              <p className='text-xs text-gray-400 mt-6 sm:mt-8'>
                 We usually respond within 24 hours.
               </p>
             </div>
@@ -138,7 +138,7 @@ function Footer() {
         </div>
 
         {/* BRAND / ABOUT STRIP */}
-        <div className='bg-white rounded-[24px] shadow-sm border border-gray-200 py-8 px-3 text-center'>
+        <div className='bg-white rounded-2xl sm:rounded-[24px] shadow-sm border border-gray-200 py-6 sm:py-8 px-4 sm:px-3 text-center'>
           <div className='flex justify-center items-center gap-3 mb-3'>
             <div className='bg-black text-white p-2 rounded-lg'><BsRobot size={16}/></div>
             <h2 className='font-semibold'>IntervX</h2>
